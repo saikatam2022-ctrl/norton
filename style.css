@@ -177,7 +177,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
+  display: flex:
   z-index: 0;
   opacity: 0.95;
 }
@@ -792,7 +792,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1240px) {
   .header-actions .support-phone span {
     display: none;
   }
@@ -804,6 +804,9 @@ body {
 
   .hero {
     padding: 48px 0 80px;
+	 background-position: center top;
+    background-attachment: scroll;
+    min-height: 80vh;
   }
 
   .hero::before {
