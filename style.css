@@ -803,10 +803,14 @@ body {
   }
 
   .hero {
-    padding: 48px 0 80px;
-	 background-position: center top;
     background-attachment: scroll;
-    min-height: 80vh;
+    min-height: 40vh;
+	background: url('./bg_hp_hero_genie_scam_protection_t_2x.png')center top / cover no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    position: relative;
   }
 
   .hero::before {
